@@ -1,26 +1,5 @@
 [
   {
-    "nombre": "Servidor Comunidad",
-    "descripcion": "Plantilla ideal para comunidades activas.",
-    "creado_por": "Admin",
-    "usuarios": 123,
-    "enlace": "https://discord.new/abcd123"
-  },
-  {
-    "nombre": "Servidor Soporte",
-    "descripcion": "Con sistema de tickets y roles automáticos.",
-    "creado_por": "BotSupport",
-    "usuarios": 77,
-    "enlace": "https://discord.new/xyz789"
-  },
-  {
-    "nombre": "Squad LG",
-    "descripcion": "Test template.",
-    "creado_por": "Datta",
-    "usuarios": 6,
-    "enlace": "https://discord.new/VV3fUK6r6y3E"
-  },
-  {
     "nombre": "Plantilla Nueva",
     "descripcion": "¡Esta es una plantilla nueva agregada!",
     "creado_por": "FlexWord",
