@@ -1,3 +1,24 @@
-¡Lanzamos Template Hub! 🎉 Ahora puedes compartir plantillas de Discord con la comunidad.
-Nueva función: Noticias dinámicas 📢 Ahora podés ver noticias en tiempo real desde nuestra web.
-Próxima actualización: ¡Estamos trabajando en nuevas características!
+[
+  {
+    "titulo": "Nuevo Evento",
+    "descripcion": "¡No te pierdas el evento de Discord este fin de semana!",
+    "color": "#7289DA",
+    "campo_1": {
+      "nombre": "Fecha",
+      "valor": "Sábado, 1 de mayo"
+    },
+    "campo_2": {
+      "nombre": "Hora",
+      "valor": "18:00 (UTC)"
+    }
+  },
+  {
+    "titulo": "Mantenimiento del servidor",
+    "descripcion": "Nuestro servidor estará en mantenimiento el viernes.",
+    "color": "#FF0000",
+    "campo_1": {
+      "nombre": "Hora de inicio",
+      "valor": "Viernes, 30 de abril, 14:00 UTC"
+    }
+  }
+]
