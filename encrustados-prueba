@@ -1,0 +1,30 @@
+#Encrustados de Tempalte para noticias 
+
+[
+  {
+    "autor": {
+      "nombre": "FlexWord",
+      "icono": "https://cdn.discordapp.com/icons/123456789012345678/abcdef1234567890.png",
+      "enlace": "https://discord.com/users/123456789012345678"
+    },
+    "titulo": "¡Nuevo evento confirmado!",
+    "descripcion": "Este sábado realizaremos un torneo PvP entre clanes, ¡prepárate!",
+    "imagen": "https://example.com/evento.jpg",
+    "campos": [
+      { "nombre": "Lugar", "valor": "Arena principal", "inline": true },
+      { "nombre": "Requiere inscripción", "valor": "Sí", "inline": true }
+    ],
+    "pie": {
+      "texto": "Publicado por el staff",
+      "icono": "https://example.com/logo.png"
+    },
+    "fecha": "2025-05-01T14:00:00Z",
+    "color": "#5865F2",
+    "botones": [
+      {
+        "texto": "Ver más",
+        "url": "https://vanitymc.us/evento"
+      }
+    ]
+  }
+]
