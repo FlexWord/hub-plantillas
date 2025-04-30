@@ -2,7 +2,7 @@
   {
     "autor": {
       "nombre": "Template Hub",
-      "icono": "https://media.discordapp.net/attachments/1320595928679317541/1356425592764895382/pngtree-secure-exchange-trading-logo-template-png-image_5611639.png",
+      "icono": "https://cdn.discordapp.com/attachments/1320595928679317541/1356425592764895382/pngtree-secure-exchange-trading-logo-template-png-image_5611639.png?ex=6812c0c6&is=68116f46&hm=c875f99138fc26f7e6cd4f50b0e2c342ea3c16949018bb46cf81ed12c91261f0&",
       "enlace": "https://discord.gg/EpW68qYh52"
     },
     "titulo": "Coming soon!",
@@ -28,7 +28,7 @@
 {
   "autor": {
     "nombre": "Template Hub",
-    "icono": "https://media.discordapp.net/attachments/1320595928679317541/1356425592764895382/pngtree-secure-exchange-trading-logo-template-png-image_5611639.png",
+    "icono": "https://cdn.discordapp.com/attachments/1320595928679317541/1356425592764895382/pngtree-secure-exchange-trading-logo-template-png-image_5611639.png?ex=6812c0c6&is=68116f46&hm=c875f99138fc26f7e6cd4f50b0e2c342ea3c16949018bb46cf81ed12c91261f0&",
     "enlace": "https://discord.gg/EpW68qYh52"
   },
   "titulo": "📦 Templates in Progress",
@@ -39,7 +39,7 @@
     { "nombre": "Update", "valor": "New templates will be added very soon.", "inline": false }
   ],
   "pie": {
-    "texto": "Posted by: Template Hub",
+    "texto": "Posted by: Datta",
     "icono": "https://example.com/avatar.png"
   },
   "fecha": "2025-05-01T18:00:00Z",
