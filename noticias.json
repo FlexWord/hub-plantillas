@@ -9,8 +9,8 @@
     "descripcion": "Our own embed will be launched very soon.",
     "imagen": "",
     "campos": [
-      { "nombre": "dad", "valor": "Arena principal", "inline": false },
-      { "nombre": "Requiere inscripción", "valor": "Sí", "inline": false }
+      { "nombre": " ", "valor": "  ", "inline": false },
+      { "nombre": "  ", "valor": "  ", "inline": false }
     ],
     "pie": {
       "texto": "Datta",
