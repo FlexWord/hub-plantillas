@@ -134,3 +134,17 @@ function paginaAnterior() {
 cargarPlantillas();
 </script>
 
+
+
+{
+
+#Titulo
+-Descripcion
+
+-Creador- (es donde pondre el nombre del creador de la plantilla)
+-Soporte (es donde yo pondre el enlace de soporte o del servidor de quien creo la plantilla si es que tiene servidor de soporte en discord)
+
+*Usar olantilla  (es donde pondre el enlace de la plantilla (tienen que ser un boton))
+#Color (es donde yo pondre el color del encrustado) 
+*Estado* (es donde yo pondre si el estado de la plantilla esta disponible o no y en caso de que este disponible el usuario podra usar la plantilla en caso de que no este disponible yo ponde un enlace donde el usaurio tendra que ir para pedir la plantilla segun el codigo que aparesca en el boton (Mira aparesera en color verde si esta disponible y en rojo si no esta disponible y en caso que no este disponible aparesera en boton el cual yo le tendre que poner un nombre o codigo el cual al darle click sera rediriguido al seervidor y tendran que hacer un ticket y pedir la plnatilla segun su codigo asicnado y hay se les dara la informacion del porque esta desactivado y todo eso))
+}
