@@ -1,19 +1,19 @@
 [
   {
     "autor": {
-      "nombre": "FlexWord",
-      "icono": "https://cdn.discordapp.com/icons/123456789012345678/abcdef1234567890.png",
+      "nombre": "Template Hub",
+      "icono": "https://media.discordapp.net/attachments/1320595928679317541/1356425592764895382/pngtree-secure-exchange-trading-logo-template-png-image_5611639.png?ex=6812c0c6&is=68116f46&hm=c875f99138fc26f7e6cd4f50b0e2c342ea3c16949018bb46cf81ed12c91261f0&=&format=webp&quality=lossless",
       "enlace": "https://discord.com/users/123456789012345678"
     },
     "titulo": "¡Nuevo evento confirmado!",
     "descripcion": "Este sábado realizaremos un torneo PvP entre clanes, ¡prepárate!",
-    "imagen": "https://www.google.com/imgres?q=imagen%20discord&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2F7V5jdOjWVU4%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.egames.news%2Fnoticias%2FDiscord-revela-su-nueva-imagen-y-los-cambios-que-tendra-20240529-0023.html&docid=wVcBLjDD_YcMPM&tbnid=0vMd5SQ2bpCEsM&vet=12ahUKEwjw2pv-_v6MAxW1q5UCHYGTJhoQM3oFCIcBEAA..i&w=1280&h=720&hcb=2&ved=2ahUKEwjw2pv-_v6MAxW1q5UCHYGTJhoQM3oFCIcBEAA",
+    "imagen": "  ",
     "campos": [
       { "nombre": "Lugar", "valor": "Arena principal", "inline": true },
       { "nombre": "Requiere inscripción", "valor": "Sí", "inline": true }
     ],
     "pie": {
-      "texto": "Publicado por el staff",
+      "texto": "Publicado por Angello",
       "icono": "https://example.com/logo.png"
     },
     "fecha": "2025-05-01T14:00:00Z",
