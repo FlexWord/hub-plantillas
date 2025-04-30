@@ -7,7 +7,7 @@
     },
     "titulo": "¡Nuevo evento confirmado!",
     "descripcion": "Este sábado realizaremos un torneo PvP entre clanes, ¡prepárate!",
-    "imagen": "https://example.com/evento.jpg",
+    "imagen": "https://www.google.com/imgres?q=imagen%20discord&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2F7V5jdOjWVU4%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.egames.news%2Fnoticias%2FDiscord-revela-su-nueva-imagen-y-los-cambios-que-tendra-20240529-0023.html&docid=wVcBLjDD_YcMPM&tbnid=0vMd5SQ2bpCEsM&vet=12ahUKEwjw2pv-_v6MAxW1q5UCHYGTJhoQM3oFCIcBEAA..i&w=1280&h=720&hcb=2&ved=2ahUKEwjw2pv-_v6MAxW1q5UCHYGTJhoQM3oFCIcBEAA",
     "campos": [
       { "nombre": "Lugar", "valor": "Arena principal", "inline": true },
       { "nombre": "Requiere inscripción", "valor": "Sí", "inline": true }
