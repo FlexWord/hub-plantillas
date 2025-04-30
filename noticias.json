@@ -7,7 +7,7 @@
     },
     "titulo": "¡Nuevo evento confirmado!",
     "descripcion": "Este sábado realizaremos un torneo PvP entre clanes, ¡prepárate!",
-    "imagen": "  ",
+    "imagen": "",
     "campos": [
       { "nombre": "Lugar", "valor": "Arena principal", "inline": true },
       { "nombre": "Requiere inscripción", "valor": "Sí", "inline": true }
