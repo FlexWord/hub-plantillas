@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+      color: #ccc;
+    }
+
+    #avisos-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .embed-discord {
+      background-color: #2f3136;
+      border-left: 5px solid #7289DA;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      color: #fff;
+      font-size: 16px;
+      width: calc(50% - 10px);
+      box-sizing: border-box;
+    }
+
+    .embed-discord h3 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+    }
+
+    .embed-discord p {
+      margin: 5px 0;
+    }
+
+    .embed-discord .field {
+      margin: 5px 0;
+    }
+
+    .embed-discord .field-name {
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .embed-discord {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="avisos-container"></div>
+
+  <script>
+    function cargarAvisos() {
+      fetch('')
+        .then(respuesta => respuesta.json())
+        .then(avisos => {
+          const contenedor = document.getElementById('avisos-container');
+          avisos.forEach(aviso => {
+            const div = document.createElement('div');
+            div.classList.add('embed-discord');
+
+            div.innerHTML = `
+              <h3>${aviso.titulo}</h3>
+              <p>${aviso.descripcion}</p>
+            `;
+
+            div.style.borderLeftColor = aviso.color || '#7289DA';
+
+            if (aviso.campo_1) {
+              div.innerHTML += `
+                <div class="field">
+                  <span class="field-name">${aviso.campo_1.nombre}:</span> ${aviso.campo_1.valor}
+                </div>
+              `;
+            }
+
+            if (aviso.campo_2) {
+              div.innerHTML += `
+                <div class="field">
+                  <span class="field-name">${aviso.campo_2.nombre}:</span> ${aviso.campo_2.valor}
+                </div>
+              `;
+            }
+
+            contenedor.appendChild(div);
+          });
+        })
+        .catch(error => {
+          console.error('Error al cargar el archivo de avisos:', error);
+        });
+    }
+
+    window.onload = cargarAvisos;
+  </script>
+
+</body>
+</html>
