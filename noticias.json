@@ -13,7 +13,7 @@
       { "nombre": "  ", "valor": "  ", "inline": false }
     ],
     "pie": {
-      "texto": "*Posted by*: Datta",
+      "texto": "Posted by: Datta",
       "icono": "https://example.com/logo.png"
     },
     "fecha": "2025-05-01T14:00:00Z",
