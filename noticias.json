@@ -5,23 +5,23 @@
       "icono": "https://media.discordapp.net/attachments/1320595928679317541/1356425592764895382/pngtree-secure-exchange-trading-logo-template-png-image_5611639.png?ex=6812c0c6&is=68116f46&hm=c875f99138fc26f7e6cd4f50b0e2c342ea3c16949018bb46cf81ed12c91261f0&=&format=webp&quality=lossless",
       "enlace": "https://discord.gg/EpW68qYh52"
     },
-    "titulo": "¡Nuevo evento confirmado!",
-    "descripcion": "Este sábado realizaremos un torneo PvP entre clanes, ¡prepárate!",
+    "titulo": "Coming soon!",
+    "descripcion": "Our own embed will be launched very soon.",
     "imagen": "",
     "campos": [
-      { "nombre": "Lugar", "valor": "Arena principal", "inline": true },
-      { "nombre": "Requiere inscripción", "valor": "Sí", "inline": true }
+      { "nombre": "dad", "valor": "Arena principal", "inline": false },
+      { "nombre": "Requiere inscripción", "valor": "Sí", "inline": false }
     ],
     "pie": {
-      "texto": "Angello",
+      "texto": "Datta",
       "icono": "https://example.com/logo.png"
     },
     "fecha": "2025-05-01T14:00:00Z",
     "color": "#00ff38",
     "botones": [
       {
-        "texto": "Ver más",
-        "url": "https://www.google.com/search?q=traduc"
+        "texto": " ",
+        "url": " "
       }
     ]
   }
