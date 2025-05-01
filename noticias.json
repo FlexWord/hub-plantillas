@@ -13,6 +13,7 @@
     },
     "fecha": "2025-05-01T14:00:00Z",
     "color": "#00ff38",
+    "estado": "F", 
     "botones": [
       {
         "texto": " ",
@@ -34,6 +35,7 @@
     },
     "fecha": "2025-05-01T18:00:00Z",
     "color": "#ffaa00",
+    "estado": "N", 
     "botones": [
       {
         "texto": "Join Discord",
