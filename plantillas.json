@@ -5,7 +5,6 @@
     "creado_por": "@oikawasglasses#1301",
     "enlace": "https://discord.com/template/ywApHVnpwsdR",
     "soporte": "https://discord.com/users/349367284034306050", 
-    "color": "#9b59b6",
     "estado": "disponible",
     "codigo": ""
   },
@@ -15,7 +14,6 @@
     "creado_por": "@Visuaal",
     "enlace": "https://discord.com/template/Tha94ebKmwEX",
     "soporte": "https://discord.gg/DhDxz9E",
-    "color": "#3498db",
     "estado": "disponible",
     "codigo": ""
   },
@@ -25,7 +23,6 @@
     "creado_por": "@srnyx",
     "enlace": "https://discord.com/template/r2uhQjNFKYHA",
     "soporte": "https://srnyx.com/discord",
-    "color": "#2ecc71",
     "estado": "disponible",
     "codigo": ""
   },
@@ -35,7 +32,6 @@
     "creado_por": "@ernesto_1574",
     "enlace": "https://discord.com/template/MBbADQC3WSc2",
     "soporte": "https://discord.com/invite/UsEwzSPyeN",
-    "color": "#2ecc71",
     "estado": "disponible",
     "codigo": ""
   },
@@ -45,27 +41,24 @@
     "creado_por": "@ernesto_1574",
     "enlace": "https://discord.com/template/kgvps7rxM9X9",
     "soporte": "https://discord.com/invite/UsEwzSPyeN",
-    "color": "#2ecc71",
     "estado": "disponible",
     "codigo": ""
   },
- {
+  {
     "nombre": "GENERAL COMMUNITIES",
     "descripcion": "This template is ideal for creating and managing a general Discord community. It includes organized channels for information, announcements, general chat, media, suggestions, support, and more. It's designed to provide a fluid experience and maintain clear communication between members.",
     "creado_por": "@ernesto_1574",
     "enlace": "https://discord.com/template/zKU9VeBBHbQr",
     "soporte": "https://discord.com/invite/UsEwzSPyeN",
-    "color": "#2ecc71",
     "estado": "disponible",
     "codigo": ""
   },
-   {
+  {
     "nombre": "STAFF SERVANTS",
     "descripcion": "This template is designed for internal management of a server's staff team. It includes organized channels for announcements, meetings, reports, sanctions, coordination, and documentation, as well as private rooms for communication between administrators and moderators.",
     "creado_por": "@ernesto_1574",
     "enlace": "https://discord.com/template/pREcGq3vC2Kw",
     "soporte": "https://discord.com/invite/UsEwzSPyeN",
-    "color": "#2ecc71",
     "estado": "disponible",
     "codigo": ""
   }
