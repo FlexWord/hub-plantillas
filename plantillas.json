@@ -61,15 +61,7 @@
   },
    {
     "nombre": "STAFF SERVANTS",
-    "descripcion": "This template is designed for the internal management of a server's staff team. It includes organized channels for announcements, meetings, reports, sanctions, coordination, and documentation, as well as private rooms for communication between administrators and moderators.
-
-Keep your staff well coordinated and your server under control!
-
-📌 Note: All channels are restricted, except for one, which is suggested for manual verification to prevent potential leaks.
-
-📌 Note: Invitation permission has been restricted for all staff, allowing only administrators and owners the ability to generate new invitations.
-
-📌 Note: It is suggested that you consider transforming the channel named "📁・resources-and-guides" into a forum channel. To do so, you must first enable the community option.",
+    "descripcion": "This template is designed for internal management of a server's staff team. It includes organized channels for announcements, meetings, reports, sanctions, coordination, and documentation, as well as private rooms for communication between administrators and moderators.",
     "creado_por": "@ernesto_1574",
     "enlace": "https://discord.com/template/pREcGq3vC2Kw",
     "soporte": "https://discord.com/invite/UsEwzSPyeN",
