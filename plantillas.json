@@ -28,5 +28,53 @@
     "color": "#2ecc71",
     "estado": "disponible",
     "codigo": ""
+  },
+  {
+    "nombre": "General Minecraft Server",
+    "descripcion": "This template is designed for those who manage or plan to create a Minecraft server. It includes essential channels such as information, announcements, support, general chat, and server logs, as well as integration with the Minecraft console and chat. Organize your community efficiently and professionally from the start.",
+    "creado_por": "@ernesto_1574",
+    "enlace": "https://discord.com/template/MBbADQC3WSc2",
+    "soporte": "https://discord.com/invite/UsEwzSPyeN",
+    "color": "#2ecc71",
+    "estado": "disponible",
+    "codigo": ""
+  },
+  {
+    "nombre": "CONTENT CREATORS",
+    "descripcion": "This template was created to make it easy to connect with your community and keep them informed about your posts. It includes dedicated sections for automatically sharing your new videos and streams on Twitch, YouTube, TikTok, and more, organized in a dedicated category.",
+    "creado_por": "@ernesto_1574",
+    "enlace": "https://discord.com/template/kgvps7rxM9X9",
+    "soporte": "https://discord.com/invite/UsEwzSPyeN",
+    "color": "#2ecc71",
+    "estado": "disponible",
+    "codigo": ""
+  },
+ {
+    "nombre": "GENERAL COMMUNITIES",
+    "descripcion": "This template is ideal for creating and managing a general Discord community. It includes organized channels for information, announcements, general chat, media, suggestions, support, and more. It's designed to provide a fluid experience and maintain clear communication between members.",
+    "creado_por": "@ernesto_1574",
+    "enlace": "https://discord.com/template/zKU9VeBBHbQr",
+    "soporte": "https://discord.com/invite/UsEwzSPyeN",
+    "color": "#2ecc71",
+    "estado": "disponible",
+    "codigo": ""
+  },
+   {
+    "nombre": "STAFF SERVANTS",
+    "descripcion": "This template is designed for the internal management of a server's staff team. It includes organized channels for announcements, meetings, reports, sanctions, coordination, and documentation, as well as private rooms for communication between administrators and moderators.
+
+Keep your staff well coordinated and your server under control!
+
+📌 Note: All channels are restricted, except for one, which is suggested for manual verification to prevent potential leaks.
+
+📌 Note: Invitation permission has been restricted for all staff, allowing only administrators and owners the ability to generate new invitations.
+
+📌 Note: It is suggested that you consider transforming the channel named "📁・resources-and-guides" into a forum channel. To do so, you must first enable the community option.",
+    "creado_por": "@ernesto_1574",
+    "enlace": "https://discord.com/template/pREcGq3vC2Kw",
+    "soporte": "https://discord.com/invite/UsEwzSPyeN",
+    "color": "#2ecc71",
+    "estado": "disponible",
+    "codigo": ""
   }
 ]
