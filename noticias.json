@@ -1,10 +1,5 @@
 [
   {
-    "autor": {
-      "nombre": "Template Hub",
-      "icono": "https://cdn.discordapp.com/attachments/1320595928679317541/1356425592764895382/pngtree-secure-exchange-trading-logo-template-png-image_5611639.png?ex=6812c0c6&is=68116f46&hm=c875f99138fc26f7e6cd4f50b0e2c342ea3c16949018bb46cf81ed12c91261f0&",
-      "enlace": "https://discord.gg/EpW68qYh52"
-    },
     "titulo": "Coming soon!",
     "descripcion": "Official Template Hub documentation is coming soon.\nIn this section, you'll find comprehensive guides for setting up Discord bots from scratch using code, as well as resources and tools for creating custom websites.\nOur goal is to provide you with everything you need to develop your projects easily and efficiently.",
     "imagen": "",
@@ -25,30 +20,25 @@
       }
     ]
   },
-{
-  "autor": {
-    "nombre": "Template Hub",
-    "icono": "https://cdn.discordapp.com/attachments/1320595928679317541/1356425592764895382/pngtree-secure-exchange-trading-logo-template-png-image_5611639.png?ex=6812c0c6&is=68116f46&hm=c875f99138fc26f7e6cd4f50b0e2c342ea3c16949018bb46cf81ed12c91261f0&",
-    "enlace": "https://discord.gg/EpW68qYh52"
-  },
-  "titulo": "📦 Templates in Progress",
-  "descripcion": "We're working on adding more templates to the platform. Thank you for your patience and support! 😄",
-  "imagen": "",
-  "campos": [
-    { "nombre": "Status", "valor": "⏳ In development", "inline": true },
-    { "nombre": "Update", "valor": "New templates will be added very soon.", "inline": false }
-  ],
-  "pie": {
-    "texto": "Posted by: Datta",
-    "icono": "https://example.com/avatar.png"
-  },
-  "fecha": "2025-05-01T18:00:00Z",
-  "color": "#ffaa00",
-  "botones": [
-    {
-      "texto": "Join Discord",
-      "url": "https://discord.gg/EpW68qYh52"
-    }
-  ]
-}
+  {
+    "titulo": "📦 Templates in Progress",
+    "descripcion": "We're working on adding more templates to the platform. Thank you for your patience and support! 😄",
+    "imagen": "",
+    "campos": [
+      { "nombre": "Status", "valor": "⏳ In development", "inline": true },
+      { "nombre": "Update", "valor": "New templates will be added very soon.", "inline": false }
+    ],
+    "pie": {
+      "texto": "Posted by: Datta",
+      "icono": "https://example.com/avatar.png"
+    },
+    "fecha": "2025-05-01T18:00:00Z",
+    "color": "#ffaa00",
+    "botones": [
+      {
+        "texto": "Join Discord",
+        "url": "https://discord.gg/EpW68qYh52"
+      }
+    ]
+  }
 ]
