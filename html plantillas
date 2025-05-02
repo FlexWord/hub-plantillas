@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Hub</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+      color: #ccc;
+    }
+
+    #contenedor-principal {
+      max-width: 921px; /* Ancho máximo del contenedor */
+      margin: 0 auto; /* Centra el contenedor en la página */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    #contador-plantillas {
+      text-align: left;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    #plantillas-container {
+      display: grid; /* Usamos grid */
+      grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+      gap: 20px; /* Espaciado uniforme entre tarjetas (horizontal y vertical) */
+      box-sizing: border-box;
+    }
+
+    .embed-discord {
+      background-color: #2f3136;
+      border-left: 5px solid #5865F2; /* Color azul característico de Discord */
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      color: #fff;
+      font-size: 16px;
+      box-sizing: border-box;
+      word-wrap: break-word; /* Asegura que el texto largo se ajuste */
+      display: flex;
+      flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+      justify-content: space-between; /* Ajusta el espacio entre el contenido y los botones */
+    }
+
+    .embed-discord h3 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+    }
+
+    .embed-discord p {
+      margin: 5px 0;
+    }
+
+    .embed-discord .creador {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .embed-discord .boton-area {
+      margin-top: 10px; /* Espaciado entre el contenido y los botones */
+      display: flex;
+      flex-wrap: wrap; /* Permite que los botones se ajusten si son muchos */
+      gap: 10px; /* Espaciado entre botones */
+    }
+
+    .embed-discord .boton-area a {
+      display: inline-block;
+      padding: 6px 10px;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 4px;
+      font-size: 13px;
+      transition: background-color 0.3s;
+    }
+
+    .embed-discord .boton-area .support-btn {
+      background-color: #43b581;
+    }
+
+    .embed-discord .boton-area .support-btn:hover {
+      background-color: #3aa76d;
+    }
+
+    .embed-discord .boton-area .use-btn {
+      background-color: #5865F2;
+    }
+
+    .embed-discord .boton-area .use-btn:hover {
+      background-color: #4752c4;
+    }
+
+    @media (max-width: 768px) {
+      #plantillas-container {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas medianas */
+      }
+    }
+
+    @media (max-width: 480px) {
+      #plantillas-container {
+        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="contenedor-principal">
+    <div id="contador-plantillas">Loading templates...</div>
+    <div id="plantillas-container"></div>
+  </div>
+
+  <script>
+    const urlPlantillas = "https://raw.githubusercontent.com/FlexWord/hub-plantillas/main/plantillas.json";
+
+    async function cargarPlantillas() {
+      try {
+        console.log("Fetching templates from:", urlPlantillas); // Depuración
+        const res = await fetch(urlPlantillas);
+        if (!res.ok) throw new Error("Error loading the JSON file");
+
+        const plantillas = await res.json();
+        console.log("Templates loaded:", plantillas); // Depuración
+
+        const contenedor = document.getElementById('plantillas-container');
+        const contador = document.getElementById('contador-plantillas');
+
+        if (!Array.isArray(plantillas) || plantillas.length === 0) {
+          console.warn("No templates found in the JSON file."); // Depuración
+          contador.textContent = 'No templates available.';
+          contenedor.innerHTML = '<p>No templates found.</p>';
+          return;
+        }
+
+        contador.textContent = `Available templates: ${plantillas.length}`;
+
+        // Limpia el contenedor antes de agregar nuevas plantillas
+        contenedor.innerHTML = '';
+
+        plantillas.forEach(plantilla => {
+          console.log("Processing template:", plantilla); // Depuración
+          const div = document.createElement('div');
+          div.classList.add('embed-discord');
+
+          // Aplica el color azul característico de Discord
+          div.style.borderLeftColor = '#5865F2';
+
+          div.innerHTML = `
+            <h3>${plantilla.nombre || 'Untitled'}</h3>
+            <p>${plantilla.descripcion || 'No description'}</p>
+            <p class="creador"><strong>👤 Creator:</strong> ${plantilla.creado_por || 'A stranger'}</p>
+            <div class="boton-area">
+              ${plantilla.soporte ? `<a href="${plantilla.soporte}" target="_blank" class="support-btn">🔗 Support</a>` : ''}
+              ${plantilla.estado !== 'deshabilitado' ? `<a href="${plantilla.enlace || '#'}" target="_blank" class="use-btn">Use template</a>` : ''}
+              ${plantilla.estado === 'deshabilitado' && plantilla.codigo ? `<a href="#" class="use-btn">Code: ${plantilla.codigo}</a>` : ''}
+            </div>
+          `;
+
+          contenedor.appendChild(div);
+        });
+      } catch (error) {
+        console.error('Error loading templates:', error); // Depuración
+        document.getElementById('contador-plantillas').textContent = 'Error loading templates.';
+        document.getElementById('plantillas-container').innerHTML = '<p>Error loading templates.</p>';
+      }
+    }
+
+    window.onload = cargarPlantillas;
+  </script>
+
+</body>
+</html>
